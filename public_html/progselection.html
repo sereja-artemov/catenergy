@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>catenergy</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+		<nav class="main-nav">
+			<a href="" class="main-nav__logo-link">
+				<img src="#" alt="catenergy" class="main-nav__logo">
+			</a>
+			<ul class="main-nav__list">
+				<li class="main-nav__list-item">
+					<a href="" class="main-nav__link">Главная</a>
+				</li>
+				<li class="main-nav__list-item">
+					<a href="" class="main-nav__link">Каталог продукции</a>
+				</li>
+				<li class="main-nav__list-item">
+					<a href="" class="main-nav__link">Подбор программы</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+	<main>
+		<div class="container">
+			<section class="progselect">
+				<h1 class="progselect__title">Подбор программы</h1>
+				<p class="progselect__descr">заполните анкету и мы подберем программу питания для вашего кота</p>
+				<form action="POST" class="progselect__form">
+
+						<div class="progselect__text-wrapper">
+							<label>
+								ИМЯ:*
+								<input type="text" name="cat" class="progselect__form-input progselect__form-input-text" placeholder="БАРСИК" required="">
+							</label>
+							<label>
+								ВЕС (КГ):*
+								<input type="text" name="weight" class="progselect__form-input progselect__form-input-text" placeholder="7" required="">
+							</label>
+							<label>
+								ВОЗРАСТ (ЛЕТ):
+								<input type="text" name="age" class="progselect__form-input progselect__form-input-text" placeholder="7">
+							</label>
+						</div>
+						<div class="progselect__radio-wrapper">
+							<label>
+								<input type="radio" name="program" class="progselect__form-input progselect__form-input-radio" checked>
+								ПОХУДЕНИЕ
+							</label>
+							<label>
+								<input type="radio" name="program" class="progselect__form-input progselect__form-input-radio" >
+								НАБОР МАССЫ
+							</label>
+							<label>
+								<input type="radio" name="program" class="progselect__form-input progselect__form-input-radio" >
+								НЕ ЗНАЮ (НУЖЕН ВАШ СОВЕТ)
+							</label>
+						</div>
+						<p class="progselect__form-title">Контактные данные (владельца кота)</p>
+						<div class="progselect__contact-wrapper">
+							<label>
+								EMAIL:*
+								<input type="email" name="email" class="progselect__form-input progselect__form-input-contact" placeholder="KUKLACHEV@GMAIL.COM" required="">
+							</label>
+							<label>
+								ТЕЛЕФОН:*
+								<input type="tel" name="tel" class="progselect__form-input progselect__form-input-contact" placeholder="8 (960) 900-60-90" required="">
+							</label>
+						</div>
+						<p class="progselect__form-title">Комментарий</p>
+						<textarea name="comment" rows="8" cols="80" placeholder="РАССКАЖИТЕ ОБО ВСЕХ ПОВАДКАХ КОТА">
+
+						</textarea>
+						<p class="progselect__form-title">Дополнительно</p>
+						<div class="progselect__form-checkbox-wrapper">
+							<label>
+								САХАРОЗАМЕНИТЕЛЬ
+								<input type="checkbox" name="sweetener" class="progselect__form-input progselect__form-input-more" checked>
+							</label>
+							<label>
+								ПИТЬЕВАЯ ВОДА
+								<input type="checkbox" name="water" class="progselect__form-input progselect__form-input-more">
+							</label>
+							<label>
+								МОЛОКО
+								<input type="checkbox" name="milk" class="progselect__form-input progselect__form-input-more">
+							</label>
+							<label>
+								ВИТАМИНЫ
+								<input type="checkbox" name="vitamns" class="progselect__form-input progselect__form-input-more">
+							</label>
+						</div>
+						<div class="progselect__form-button-wrapper">
+							<button class="btn progselect__form-btn">ОТПРАВИТЬ ЗАЯВКУ</button>
+							<span class="progselect__star">*-Обязательные поля</span>
+						</div>
+
+				</form>
+			</section>
+
+
+				<section class="map">
+					<img src="#" alt="" class="map__img">
+					<div class="container">
+						<img src="#" alt="" class="map__logo">
+						<div class="map__content-block">
+							<div class="map__content-block-left">
+								<p class="map__invite">Приглашаем к сотрудничеству дилеров!</p>
+							</div>
+							<div class="map__content-block-right">
+								<p class="map__adress">ул. Большая Конюшенная, д. 19/8</p>
+								<p class="map__city">Санкт-Петербург</p>
+							</div>
+						</div>
+					</div>
+				</section>
+		</div>
+	</div>
+	</main>
+	<footer class="main-footer">
+		<div class="bg">
+			<div class="container">
+				<div class="main-footer__wrapper">
+						<img src="" alt="" class="main-footer__logo">
+						<div class="social">
+							<img src="#" alt="" class="social__img social__img-1">
+							<img src="#" alt="" class="social__img social__img-2">
+							<img src="#" alt="" class="social__img social__img-3">
+						</div>
+						<div class="created">
+							<p class="created__name">HTMLAcademy</p>
+							<img class="created__name-logo" src="#" alt="">
+						</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
